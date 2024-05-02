@@ -17,11 +17,14 @@ html {
     color: white;
     display: grid;
     gap: 15px;
-    justify-content: start;
+    align-content: start;
+    padding: 15px;
 } 
 
 .header {
     grid-column: 2;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
 }
 
 .main-content {
