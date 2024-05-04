@@ -8,7 +8,7 @@ html {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 0.5fr 5fr;
 }
 
 .sidebar {
@@ -24,7 +24,7 @@ html {
 .header {
     grid-column: 2;
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .top_header {
@@ -36,7 +36,21 @@ html {
 
 .bottom_header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 15px;
+    gap: 5px;
+}
+
+.user {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
  .circle {
@@ -48,4 +62,9 @@ html {
     background-color: #bccbde;
     grid-column: 2;
     display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+    grid-row: 1 / 3;
 }
