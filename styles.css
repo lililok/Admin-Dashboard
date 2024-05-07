@@ -25,6 +25,7 @@ html {
     grid-column: 2;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    padding: 15px;
 }
 
 
@@ -33,6 +34,13 @@ html {
     align-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
+}
+
+.account {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .bottom_header {
@@ -64,24 +72,24 @@ html {
     background-color: #bccbde;
     grid-column: 2;
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: 4fr 1fr;
+    gap: 30px;
 }
 
 .right_main_content {
-    gap: 20px;
+    padding: 15px;
 }
 
 .projects {
-    grid-row: 1 / 3;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-area: 1 / 1 / 3 / 2;
+    padding: 15px;
 }
 
 .projects_card_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
+    padding: 15px;
 }
 
 .announcements_card {
@@ -102,4 +110,12 @@ html {
     height: 200px;
     background-color: white;
     border-radius: 5px;
+}
+
+.announcements {
+    
+} 
+
+.trending {
+
 }
