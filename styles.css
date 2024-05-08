@@ -113,6 +113,8 @@ html {
     background-color: white;
     border-radius: 5px;
     padding: 10px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
 }
 
 .announcements {
@@ -121,4 +123,10 @@ html {
 
 .trending {
     padding: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
 }
