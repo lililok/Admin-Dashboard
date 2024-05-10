@@ -34,8 +34,13 @@ html {
 }
 
 .icons {
-    filter: invert(100%);
     height: 2rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.functional > ul > li > img.icons, .help > ul > li > img.icons {
+    filter: invert(100%);
 }
 
 li {
@@ -64,6 +69,19 @@ ul {
     align-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
+}
+
+input {
+    border-radius: 5px;
+    border-style: none;
+    padding: 7px;
+    width: 90%;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .account {
