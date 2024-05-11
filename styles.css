@@ -69,6 +69,7 @@ ul {
     align-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
+    padding: 10px;
 }
 
 input {
@@ -89,6 +90,11 @@ input {
     gap: 10px;
     align-items: center;
     justify-content: flex-end;
+    width: 90%;
+}
+
+#user {
+    font-weight: bold;
 }
 
 .bottom_header {
@@ -96,11 +102,24 @@ input {
     align-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
+    padding: 10px;
+}
+
+#text > p.small {
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0;
+}
+
+#text > p.big {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0;
 }
 
 .user {
     display: flex;
-    gap: 3px;
+    gap: 10px;
     align-items: center;
 }
 
