@@ -154,7 +154,6 @@ button {
 
 .main_header {
     font-weight: bold;
-
 }
 
 .right_main_content {
@@ -179,6 +178,8 @@ button {
     background-color: white;
     border-radius: 5px;
     padding: 10px;
+    display: grid;
+    grid-template-rows: 30% 35% 35%;
 }
 
 .trending_card {
@@ -211,6 +212,10 @@ div.text {
     color: #5e5c5c;
 }
 
+#text > p.small {
+    color: black;
+}
+
 .announcements {
     padding: 10px;
 } 
@@ -230,5 +235,5 @@ div.text {
 .project_icons {
     display: flex;
     justify-content: flex-end;
-    gap: 3px;
+    gap: 5px;
 }
